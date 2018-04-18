@@ -17,7 +17,10 @@ export class NoticiaComponent implements OnInit {
 
   ngOnInit() {
   }
-public esconderNoticia (){
+public esconderNoticia(){
   this.mostrarNoticia = false;
-}
+  }
+  public voltarPagina(){
+    this.mostrarNoticia = true;
+  }
 }
